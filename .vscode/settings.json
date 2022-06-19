@@ -1,0 +1,10 @@
+{
+    "files.encoding": "windows1251",
+    "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
+    "editor.fontSize": 11,
+    "editor.fontLigatures": true,
+    "editor.letterSpacing": 0.4,
+    "editor.smoothScrolling": true,
+    "search.useGlobalIgnoreFiles": false,
+    "search.useIgnoreFiles": false
+}
