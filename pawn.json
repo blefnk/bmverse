@@ -1,0 +1,11 @@
+{
+	"user": "blefnk",
+	"repo": "bmverse",
+	"tag": "0.0.1",
+	"entry": "gamemodes/blefonix.pwn",
+	"output": "gamemodes/blefonix.amx",
+	"dependencies": [
+		"pawn-lang/samp-stdlib"
+	],
+	"local": true
+}
