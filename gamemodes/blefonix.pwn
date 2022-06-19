@@ -66,6 +66,24 @@
  | ARCHIVES
  ---------------------------------------------------------------------------- */
 
+// #include <ini>
+// #include <gvar>
+// #include <zlang>
+// #include <mapfix>
+// #include <foreach>
+// #include <mdialog>
+// #include <PawnPlus>
+// #include <map-zones>
+// #include <eSelection>
+// #include <legacy\fmt>
+// #include <legacy\cctv>
+// #include <legacy\stdlib>
+// #include <utils\vehlibs>
+// #include <command-guess>
+// #include <legacy\predefs>
+// #include <detutils\d_samp>
+// #include <library\data.pwn>
+
 /* -----------------------------------------------------------------------------
  | INCLUDES
  ---------------------------------------------------------------------------- */
@@ -104,6 +122,11 @@
 
 public OnGameModeInit() {
 	print("Hello, Blefonix Metaverse!");
+	return true;
+}
+
+public OnGameModeExit() {
+	print("[OnGameModeExit 1st Call] Blefonix Metaverse Roles");
 	return true;
 }
 
