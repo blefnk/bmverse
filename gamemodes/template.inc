@@ -1,74 +1,38 @@
 /* =============================================================================
- |  Blefonix Metaverse hub.blefonix.com
- |  By Nazar Kornienko and Petro Melnyk
- |  Bmverse gamemode: version now 0.0.1
- | ====================================
- | omp-server.exe --script blefonix.amx
+ | Blefonix Metaverse hub.blefonix.com
+ | By Nazar Kornienko and Petro Melnyk
  ============================================================================ */
 
-#include <a_samp>
+#if defined _inc_TEMPLATE
+	#undef _inc_TEMPLATE
+#endif
 
 /* -----------------------------------------------------------------------------
  | TABLE OF CONTENT:
- | CONSTANTS / LIBRARIES / CUSTOM / ARCHIVES / FORWARDS (INIT)
- | ENUMERATIONS / VARIABLES / TIMERS / STOCKS/ CONDITIONS
- | PUBLICS / FUNCTIONS / FORWARDS (CALLING) / INCLUDES
- | MODULES / DIALOGS / COMMANDS / DEPRECATED
+ | CONSTANTS / INCLUDES / LIBRARIES / FORWARDS (DEFINING)
+ | ENUMERATIONS / VARIABLES / TIMERS / STOCKS / CONDITIONS / PUBLICS
+ | FUNCTIONS / FORWARDS (CALLING) / INCLUDES / MODULES / DIALOGS / COMMANDS
  ---------------------------------------------------------------------------- */
 
-#undef MAX_PLAYERS
-#define MAX_PLAYERS 20
+#if defined _TEMPLATE_included
+	#endinput
+#endif
 
 /* -----------------------------------------------------------------------------
  | CONSTANTS
  ---------------------------------------------------------------------------- */
 
-#define YSI_NO_HEAP_MALLOC
-#define YSI_NO_VERSION_CHECK
-#define YSI_NO_CACHE_MESSAGE
-#define YSI_NO_OPTIMISATION_MESSAGE
+#define _TEMPLATE_included
+
+/* -----------------------------------------------------------------------------
+ | INCLUDES
+ ---------------------------------------------------------------------------- */
 
 /* -----------------------------------------------------------------------------
  | LIBRARIES
  ---------------------------------------------------------------------------- */
 
-#include <fixes>
-#include <sscanf2>
-#include <a_mysql>
-#include <formatex>
-#include <samp_bcrypt>
-
-#include <YSI_Data\y_bit>
-#include <YSI_Core\y_utils>
-#include <YSI_Coding\y_timers>
-#include <YSI_Extra\y_inline_bcrypt>
-#include <YSI_Extra\y_inline_mysql>
-#include <YSI_Visual\y_dialog>
-#include <YSI_Coding\y_inline>
-#include <YSI_Data\y_iterate>
-#include <YSI_Coding\y_va>
-#include <mysql_prepared>
-
-#include <logger>
-#include <streamer>
-#include <Pawn.CMD>
-#include <sampvoice>
-
-#include <colors>
-#include <pickups>
-#include <svinclude>
-
-/* -----------------------------------------------------------------------------
- | CUSTOM
- ---------------------------------------------------------------------------- */
-
-/* -----------------------------------------------------------------------------
- | ARCHIVES
- ---------------------------------------------------------------------------- */
-
-/* -----------------------------------------------------------------------------
- | INCLUDES
- ---------------------------------------------------------------------------- */
+#include <YSI_Coding\y_hooks>
 
 /* -----------------------------------------------------------------------------
  | FORWARDS (DEFINING)
@@ -102,25 +66,20 @@
  | PUBLICS
  ---------------------------------------------------------------------------- */
 
-public OnGameModeInit() {
-	print("Hello, Blefonix Metaverse!");
-	return true;
-}
+/* -----------------------------------------------------------------------------
+ | FUNCTIONS
+ ---------------------------------------------------------------------------- */
 
 /* -----------------------------------------------------------------------------
  | FORWARDS (CALLING)
  ---------------------------------------------------------------------------- */
 
 /* -----------------------------------------------------------------------------
- | MODULES
- ---------------------------------------------------------------------------- */
-
-/* -----------------------------------------------------------------------------
- | FUNCTIONS
- ---------------------------------------------------------------------------- */
-
-/* -----------------------------------------------------------------------------
  | INCLUDES
+ ---------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ | MODULES
  ---------------------------------------------------------------------------- */
 
 /* -----------------------------------------------------------------------------
@@ -129,8 +88,4 @@ public OnGameModeInit() {
 
 /* -----------------------------------------------------------------------------
  | COMMANDS
- ---------------------------------------------------------------------------- */
-
-/* -----------------------------------------------------------------------------
- | DEPRECATED
  ---------------------------------------------------------------------------- */
