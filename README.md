@@ -2,7 +2,7 @@
 
 [![sampctl](https://img.shields.io/badge/sampctl-bmverse-2f2f2f.svg?style=for-the-badge)](https://github.com/blefnk/bmverse)
 
-⭕ Blefonix Metaverse public repo. Blefonix Metaverse is a digital universe. It's game servers, mods, freelance, music, discuss site, and more. In discord we do more activity.
+Blefonix Metaverse public repo. Blefonix Metaverse is a digital universe. It's game servers, mods, freelance, music, discuss site, and more. In discord we do more activity.
 
 <!--
 Short description of your library, why it's useful, some examples, pictures or

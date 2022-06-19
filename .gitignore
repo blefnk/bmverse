@@ -13,7 +13,6 @@ dependencies/
 # Dependency versions lockfile
 pawn.lock
 
-
 #
 # Server/gamemode related files
 #
@@ -37,14 +36,23 @@ samp-npc
 
 # logs
 logs/
-server_log.txt
+svlog.txt
 crashinfo.txt
-
-# Ban list
-samp.ban
+server_log.txt
 
 #
 # Common files
 #
 
+scriptfiles/DANGEROUS_SERVER_ROOT
 *.sublime-workspace
+.env
+
+#
+# open.mp
+#
+
+omp_minidump.dmp
+!omp-server.exe
+!components/*
+log.txt
